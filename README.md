@@ -6,10 +6,7 @@ A personal Neovim distribution based on kickstart.nvim, with modern IDE-like fea
 
 ### Install Neovim
 
-Kickstart.nvim targets *only* the latest
-['stable'](https://github.com/neovim/neovim/releases/tag/stable) and latest
-['nightly'](https://github.com/neovim/neovim/releases/tag/nightly) of Neovim.
-If you are experiencing issues, please make sure you have the latest versions.
+Currently targets Neovim >=0.11.x, although versions beyond stable are untested
 
 ### Install External Dependencies
 
@@ -59,13 +56,13 @@ git clone https://github.com/ikzLucas/lk.nvim.git "${XDG_CONFIG_HOME:-$HOME/.con
 If you're using `cmd.exe`:
 
 ```
-git clone https://github.com/nvim-lua/kickstart.nvim.git "%localappdata%\nvim"
+git clone https://github.com/ikzLucas/lk.nvim.git "%localappdata%\nvim"
 ```
 
 If you're using `powershell.exe`
 
 ```
-git clone https://github.com/nvim-lua/kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
+git clone https://github.com/ikzLucas/lk.nvim.git "${env:LOCALAPPDATA}\nvim"
 ```
 
 </details>
@@ -91,7 +88,7 @@ the current plugin status. Hit `q` to close the window.
 
 Below you can find OS specific install instructions for Neovim and dependencies.
 
-After installing all the dependencies continue with the [Install Kickstart](#Install-Kickstart) step.
+After installing all the dependencies continue with the [Installation](#Installation) step.
 
 #### Windows Installation
 
