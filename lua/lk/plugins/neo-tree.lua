@@ -21,9 +21,19 @@ return {
         },
       },
       filtered_items = {
-        visible = true,
+        -- If enabled, hidden files will be visible, but grayed out
+        -- You can show and hide hidden files with shift + h (H)
+        -- visible = true,
+        show_hidden_count = true,
+        -- dotfiles will be fully visible
         hide_dotfiles = false,
         hide_gitignored = true,
+        -- always hide files with certain names
+        hide_by_name = {
+          '.git',
+          '.github',
+          '.DS_Store',
+        },
       },
     },
   },
