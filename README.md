@@ -5,11 +5,9 @@ A personal Neovim distribution based on kickstart.nvim, with modern IDE-like fea
 ## TODO:
 
 - [x] Better filetree with neo-tree
-- [x] Move neo-tree to new plugins dir (./lk/plugins)
-- [x] Better default dotfile handling in neo-tree
 - [x] Automatic closing parenthesis (and more) via autopairs 
 - [x] Tab bar via barbar plugin
-- [ ] Better navigation of tabs (ctrl + tab?) in barbar
+- [x] Better navigation of tabs (ctrl + tab, or alt+<,.> in unsupported terminals) in barbar
 
 ## Installation
 
